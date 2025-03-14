@@ -4,7 +4,7 @@ import numpy as np
 
 def lu_decomposition(A):
     n = len(A)
-    L = np.zeros((n, n))
+    L = np.zeros((n, n)
     U = np.zeros((n, n))
     
     for i in range(n):
